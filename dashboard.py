@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load dataset yang sudah digabung
-df = pd.read_csv("merged_bike_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/dewiyulianaa/Analyze-Bike-Sharing-dataset-using-streamlit-dashboard/refs/heads/main/merged_bike_data.csv")
 
 
 # Manual Grouping berdasarkan jumlah penyewaan sepeda
